@@ -7,7 +7,7 @@ Azure DevOps Helper CLI is a command-line tool designed to simplify and automate
 - **Azure Login**: Authenticate and log into your Azure account directly from the command line.
 - **Subscription Management**: List and select Azure subscriptions to manage resource scopes effectively.
 - **ACR Management**: List and log into Azure Container Registries associated with your Azure subscription.
-- **Kubernetes Configuration**: Automatically set up \`kubectl\` configurations for interacting with AKS.
+- **Kubernetes Configuration**: Automatically set up `kubectl` configurations for interacting with AKS.
 
 ## Prerequisites
 
@@ -18,35 +18,35 @@ Azure DevOps Helper CLI is a command-line tool designed to simplify and automate
 ## Installation
 
 1. **Clone the Repository**:
-   \`\`\`bash
-   git clone https://github.com/yourusername/azure-devops-helper-cli.git
+   ```bash
+   git clone https://github.com/Jonathan-Law/azgo.git
    cd azure-devops-helper-cli
-   \`\`\`
+   ```
 
 2. **Build the CLI Tool**:
-   \`\`\`bash
+   ```bash
    go build -o azgo main.go
-   \`\`\`
+   ```
 
 3. **Optional: Add to Path**:
    Add the tool to your system path to run it from anywhere on your system.
-   \`\`\`bash
+   ```bash
    sudo cp azgo /usr/local/bin/
-   \`\`\`
+   ```
 
 ## Usage
 
 ### Login to Azure
 Start by logging into Azure. This will also allow you to select a subscription and manage ACR and AKS:
-\`\`\`bash
+```bash
 ./azgo login
-\`\`\`
+```
 
-### Update Kubernetes Configurations
+### Update Kubernetes Configurations (Unimplemented)
 After logging in and selecting your subscription and AKS cluster, you can update your Kubernetes configuration:
-\`\`\`bash
+```bash
 ./azgo updatekubeconfig
-\`\`\`
+```
 
 ## Contributing
 Contributions to the Azure DevOps Helper CLI are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to make contributions.
