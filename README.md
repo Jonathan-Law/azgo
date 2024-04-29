@@ -20,7 +20,7 @@ Azure DevOps Helper CLI is a command-line tool designed to simplify and automate
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Jonathan-Law/azgo.git
-   cd azure-devops-helper-cli
+   cd azgo
    ```
 
 2. **Build the CLI Tool**:
